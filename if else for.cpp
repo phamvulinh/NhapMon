@@ -13,8 +13,5 @@ else
 {
 cout<<"a le";
 }
-for(int i=1;i<=100&&i%2==0;i++)
-{
-cout<<i<<endl;
 }
-}
+
