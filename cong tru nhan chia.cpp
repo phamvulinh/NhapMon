@@ -1,14 +1,20 @@
 //linh.cpp
 #include<iostream>
 using namespace std;
-main()
+main(){
+int a;
+cout<<"Nhap vao gia tri a:";
+cin>>a;
+if(a%2==0)
 {
-	int a=1,b=2,c=3;
-	cout <<"a+b=" 
-	<<a+b<<endl
-	<<"b-c="
-	<<b-c<<endl
-	<<a*b<<endl
-	<<c/a<<endl
-	<<a%c;
+cout<<"a chan";
+}
+else
+{
+cout<<"a le";
+}
+for(int i=1;i<=100&&i%2==0;i++)
+{
+cout<<i<<endl;
+}
 }
